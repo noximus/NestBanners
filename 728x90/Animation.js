@@ -60,25 +60,24 @@ home_animation = (function() {
 		TweenLite.to(bg, 2.3, {top:-30, delay:2.2});	
 		// slide up white bg
 		TweenLite.to(white_BG, 2.5, {left:235, delay:2.3});
-		TweenLite.delayedCall(2, frame2);
+		TweenLite.delayedCall(8, frame2);
 	}
 	
 	function frame2()
 	{	
-		TweenLite.to(second_text, 1, {opacity:1, delay:3.5});		
-		TweenLite.to(third_text, 1, {opacity:1, delay:3.8});	
-		TweenLite.delayedCall(6, frame3);
+		TweenLite.to(second_text, 3, {opacity:1, delay:0});		
+		TweenLite.to(third_text, 3, {opacity:1, delay:1});	
+		TweenLite.delayedCall(3, frame3);
 	}
 	
 	function frame3()
 	{
 		endFrame = 1;
-		TweenLite.to(buy_now, 0.5, {opacity:1, delay:0});		
-		TweenLite.to(logo, 0.5, {opacity:1, delay:.2});
+		TweenLite.to(buy_now, 3, {opacity:1, delay:1});		
+		TweenLite.to(logo, 3, {opacity:1, delay:0});
 		
 
 	}
-
 
 container.onmouseover = function() {
 	if(endFrame == 1)
