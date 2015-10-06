@@ -58,14 +58,14 @@ home_animation = (function() {
 		//TweenLite.to(product_text, 2.8, {top:-24, delay:2.2});		
 		TweenLite.to(bg, 1, {top:-252, delay:2.2});		
 
-		TweenLite.delayedCall(1.3, frame2);
+		TweenLite.delayedCall(1, frame2);
 	}
 	
 	function frame2()
 	{
 		// slide up white bg
-		TweenLite.to(bg, 1.3, {top:-283, delay:3.2});	
-		TweenLite.to(white_BG, 1.2, {top:200, delay:3.2});
+		TweenLite.to(bg, 0.6, {top:-283, delay:3});	
+		TweenLite.to(white_BG, 0.6, {top:200, delay:3});
 	//	TweenLite.to(product_text, 1, {top:-33, delay:3.2});		
 		
 		TweenLite.to(second_text, 3, {opacity:1, delay:4.4, ease: Expo.easeOut});		
@@ -87,8 +87,8 @@ home_animation = (function() {
 	function frame4()
 	{
 		endFrame = 1;
-		TweenLite.to(buy_now, 3, {opacity:1, delay:1.2});		
-		TweenLite.to(logo, 3, {opacity:1, delay:0});
+		TweenLite.to(buy_now, 3, {opacity:1, delay:0.5});		
+		TweenLite.to(logo, 1, {opacity:1, delay:0});
 		
 
 	}
