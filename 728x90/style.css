@@ -20,8 +20,8 @@ body{
 	position: absolute;
 	top:0px;
 	background-image: url("background.jpg");
-	width:728px;
-	height:125px;
+	width:778px;
+	height:90px;
 	z-index: -4;
 }
 
