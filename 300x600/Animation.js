@@ -54,30 +54,31 @@ home_animation = (function() {
 		
 	function frame1()
 	{
-		TweenLite.to(first_text, 2.8, {top:-200, delay: 2.2});
+		TweenLite.to(first_text, 1.6, {top:-180, delay: 2.2});
 		TweenLite.to(first_text, 1, {opacity:0, delay: 2.9});
-		TweenLite.to(product_text, 1.8, {top:10, delay:2.2});		
-		TweenLite.to(bg, 1, {top:-280, delay:2.2});		
+		TweenLite.to(product_text, 1.2, {top:10, delay:2});		
+		TweenLite.to(bg, 1.6, {top:-39, delay:2.2});		
 		// slide up white bg
-		TweenLite.to(white_BG, 1.8, {top:432, delay:2.2});
-		TweenLite.delayedCall(3, frame2);
+		
+		TweenLite.delayedCall(2, frame2);
 	}
 	
 	function frame2()
 	{	
-		
+		TweenLite.to(white_BG, 1.5, {top:432, delay:0});
+		TweenLite.to(logo, 1, {opacity:1, delay:1.5});
 		// TweenLite.to(product_text, 1, {top:-33, delay:3.2});
-		TweenLite.to(second_text, 3, {opacity:1, delay:2.1});
-		TweenLite.to(third_text, 3, {opacity:1, delay:3.1});
-		TweenLite.delayedCall(6, frame3);	
+		TweenLite.to(second_text, 3, {opacity:1, delay:3});
+		TweenLite.to(third_text, 3, {opacity:1, delay:4});
+		TweenLite.delayedCall(5.5, frame3);	
 
 	}
 	
 	function frame3()
 	{
 		endFrame = 1;
-		TweenLite.to(logo, 0.5, {opacity:1, delay:3});
-		TweenLite.to(buy_now, 0.5, {opacity:1, delay:5});
+		
+		TweenLite.to(buy_now, 0.5, {opacity:1, delay:0});
 	}
 
 
