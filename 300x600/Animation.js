@@ -67,9 +67,9 @@ home_animation = (function() {
 	{	
 		TweenLite.to(white_BG, 1.15, {top:432, delay:0});
 		TweenLite.to(logo, 1, {opacity:1, delay:1.5});
-		TweenLite.to(second_text, 3, {opacity:1, delay:3});
-		TweenLite.to(third_text, 3, {opacity:1, delay:4});
-		TweenLite.delayedCall(5.5, frame3);
+		TweenLite.to(second_text, 3, {opacity:1, delay:2.5});
+		TweenLite.to(third_text, 3, {opacity:1, delay:3.5});
+		TweenLite.delayedCall(4.5, frame3);
 	}
 	
 	function frame3()
