@@ -42,16 +42,10 @@ home_animation = (function() {
 				e.preventDefault();
 				Enabler.exit("clickTag1");
 			});
-	
 		//TweenLite.to(threeX, 0, {scaleX:2.5, scaleY:2.5});
 		//TweenLite.to(tool, 0, {scaleX:2.5, scaleY:2.5});
-
 		frame1();
-
 	}
-	
-
-		
 	function frame1()
 	{	
 		TweenLite.to(white_BG, .5, {opacity: 1, delay:2});
@@ -59,8 +53,7 @@ home_animation = (function() {
 		TweenLite.to(white_BG, 1.6, {left:235, delay:2.3});
 		TweenLite.to(first_text, 1.8, {left:-500, opacity:0,delay: 2.3});
 		TweenLite.to(product_text, 1.7, {left:-350, delay:2.3});		
-		TweenLite.to(bg, 1.6, {left:-360, delay:2.3});	
-		
+		TweenLite.to(bg, 1.6, {left:-360, delay:2.3});		
 		TweenLite.delayedCall(4, frame2);
 	}
 	
@@ -76,9 +69,6 @@ home_animation = (function() {
 		endFrame = 1;
 		TweenLite.to(logo, 3, {opacity:1, delay:0});
 		TweenLite.to(buy_now, 1, {opacity:1, delay:1});		
-		
-		
-
 	}
 
 container.onmouseover = function() {
