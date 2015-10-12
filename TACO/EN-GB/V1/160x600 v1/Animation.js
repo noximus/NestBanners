@@ -55,11 +55,11 @@ home_animation = (function() {
 		
 	function frame1()
 	{
-		TweenLite.to(first_text, 2, {top:-300, delay: 3});
-		TweenLite.to(product_text, 1, {top:21, left:-72, scaleX:.70, scaleY:.70, delay:3});		
-		TweenLite.to(bg, 1, {top:-20, scaleX:1, scaleY:1, delay:3});		
-		TweenLite.to(tacoLime, .95, {opacity:1, top:-40, scaleX:.8, scaleY:.8, delay:3, ease: Expo.easeOut});
-		TweenLite.delayedCall(3, frame2);
+		TweenLite.to(first_text, 1, {opacity:0, top:-300, delay: 2});
+		TweenLite.to(product_text, 1, {top:21, left:-72, scaleX:.70, scaleY:.70, delay:2});		
+		TweenLite.to(bg, 1, {top:-20, scaleX:1, scaleY:1, delay:2});		
+		TweenLite.to(tacoLime, .95, {opacity:1, top:-40, scaleX:.8, scaleY:.8, delay:2, ease: Expo.easeOut});
+		TweenLite.delayedCall(2, frame2);
 	}
 	
 	function frame2()
