@@ -63,13 +63,13 @@ home_animation = (function() {
 	function frame2()
 	{
 		// slide up white bg
-		TweenLite.to(first_text, 1.4, {opacity:0,top:-250, delay: 3});
-		TweenLite.to(product_text, 1, {top:14, delay:3});	
-		TweenLite.to(bg, 1, {top:-231, delay:3});	
-		TweenLite.to(white_BG, 1, {top:200, delay:3});
-		TweenLite.to(second_text, 3, {opacity:1, delay:4, ease: Expo.easeOut});		
-		TweenLite.to(third_text, 5, {opacity:1, delay:5.6, ease: Expo.easeOut});
-		TweenLite.delayedCall(11, frame3);	
+		TweenLite.to(first_text, 1.2, {opacity:0,top:-250, delay: 2});
+		TweenLite.to(product_text, 1, {top:14, delay:2});	
+		TweenLite.to(bg, 1, {top:-231, delay:2});	
+		TweenLite.to(white_BG, 1, {top:200, delay:2});
+		TweenLite.to(second_text, 3, {opacity:1, delay:3, ease: Expo.easeOut});		
+		TweenLite.to(third_text, 5, {opacity:1, delay:4.6, ease: Expo.easeOut});
+		TweenLite.delayedCall(10, frame3);	
 	}
 	
 	function frame3()
