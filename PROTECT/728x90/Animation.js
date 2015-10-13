@@ -52,9 +52,8 @@ home_animation = (function() {
 		// slide left white bg
 		TweenLite.to(white_BG, 1.6, {left:235, delay:2.3});
 		TweenLite.to(first_text, 1.8, {left:-500, opacity:0,delay: 2.3});
-		TweenLite.to(product_text, 1.6, {left:-350, delay:2.3});		
-		TweenLite.to(bg, 1.6, {left:-360, delay:2.3});
-		TweenLite.to(bgMask, 1.6, {left:-360, opacity:0, delay:2.3});		
+		TweenLite.to(product_text, 1.6, {left:-380, delay:2.3});		
+		TweenLite.to(bg, 1.6, {left:-250, delay:2.3});
 		TweenLite.delayedCall(4, frame2);
 	}
 	
@@ -68,8 +67,8 @@ home_animation = (function() {
 	function frame3()
 	{
 		endFrame = 1;
-		TweenLite.to(logo, 3, {opacity:1, delay:0});
-		TweenLite.to(buy_now, 1, {opacity:1, delay:1});		
+		TweenLite.to(logo, 2, {opacity:1, delay:0});
+		TweenLite.to(buy_now, 1, {opacity:1, delay:1.2});		
 	}
 
 container.onmouseover = function() {

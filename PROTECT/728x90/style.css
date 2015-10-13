@@ -59,12 +59,6 @@ left:0px;
 top:0px;
 z-index:1;
 }
-#bgMask{
-position: absolute;
-left:0px;
-top:0px;
-z-index: -1;
-}
 
 #second_text, #third_text, #buy_now, #logo {
 position: absolute;
