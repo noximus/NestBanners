@@ -43,7 +43,7 @@ home_animation = (function() {
 				Enabler.exit("clickTag1");
 			});
 	
-		TweenLite.to(product_text, 0, {scaleX:1, scaleY:1});
+		TweenLite.to(product_text, 0, {scaleX:.9, scaleY:.9});
 		TweenLite.to(bg, 0, {scaleX:1.25, scaleY:1.25});
 
 		frame1();
@@ -53,10 +53,10 @@ home_animation = (function() {
 
 		
 	function frame1()
-	{
+	 {
 		TweenLite.to(first_text, 2, {top:-300, delay: 3});
 		TweenLite.to(bgMask, 1, {opacity:0, delay:3});
-		TweenLite.to(product_text, 1, {top:-37, left:-47, scaleX:.65, scaleY:.65, delay:3});
+		TweenLite.to(product_text, 1, {top:-33, left:-72, scaleX:.6, scaleY:.6, delay:3});
 		TweenLite.to(bg, 1, {top:-20, scaleX:1, scaleY:1, delay:3});
 
 		TweenLite.delayedCall(3, frame2);
