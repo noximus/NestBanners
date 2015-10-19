@@ -76,7 +76,7 @@ home_animation = (function() {
 		TweenLite.to(second_text, 3, {opacity:1, delay:3, ease: Expo.easeOut});		
 		TweenLite.to(third_text, 5, {opacity:1, delay:4.6, ease: Expo.easeOut});	
 
-		TweenLite.delayedCall(10, frame3);	
+		TweenLite.delayedCall(8, frame3);	
 
 	}
 	

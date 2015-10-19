@@ -66,7 +66,7 @@ home_animation = (function() {
 	{
 		// slide up white bg
 		TweenLite.to(white_BG, 1, {top:420});
-		TweenLite.to(logo, 1, {opacity:1, delay:1.5});		
+		TweenLite.to(logo, 1, {opacity:1, delay:.8});		
 		TweenLite.to(second_text, 3, {opacity:1, delay:1, ease: Expo.easeOut});		
 		TweenLite.to(third_text, 5, {opacity:1, delay:2.6, ease: Expo.easeOut});	
 		TweenLite.delayedCall(4.5, frame3);	
