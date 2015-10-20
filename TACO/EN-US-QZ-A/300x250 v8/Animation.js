@@ -42,44 +42,30 @@ home_animation = (function() {
 				e.preventDefault();
 				Enabler.exit("clickTag1");
 			});
-	
-		//TweenLite.to(threeX, 0, {scaleX:2.5, scaleY:2.5});
-		//TweenLite.to(tool, 0, {scaleX:2.5, scaleY:2.5});
-
-		frame2();
+		frame1();
 
 	}
 	
-
-		
 	function frame1()
-	{
-		///TweenLite.to(first_text, 2.8, {top:-300, delay: 2.2});
-		//TweenLite.to(product_text, 2.8, {top:-24, delay:2.2});		
-		TweenLite.to(bg, 1, {top:-252, delay:2.2});		
-		TweenLite.delayedCall(1, frame2);
-	}
-	
-	function frame2()
 	{
 		// slide up white bg
 		TweenLite.to(first_text, 1.2, {opacity:0,top:-250, delay: 2});
-		TweenLite.to(product_text, 1, {top:14, delay:2});	
+		TweenLite.to(product_text, .8, {top:14, delay:2.1});	
 		TweenLite.to(bg, 1, {top:-231, delay:2});	
 		TweenLite.to(white_BG, 1, {top:200, delay:2});
 		TweenLite.to(second_text, 3, {opacity:1, delay:3, ease: Expo.easeOut});		
 		TweenLite.to(third_text, 5, {opacity:1, delay:4.6, ease: Expo.easeOut});
-		TweenLite.delayedCall(10, frame3);	
+		TweenLite.delayedCall(10, frame2);	
 	}
 	
-	function frame3()
+	function frame2()
 	{	
 		TweenLite.to(second_text, 0.5, {opacity:0, delay:0});		
 		TweenLite.to(third_text, 0.5, {opacity:0, delay:0});	
-		TweenLite.delayedCall(0.7, frame4);
+		TweenLite.delayedCall(0.7, frame3);
 	}
 	
-	function frame4()
+	function frame3()
 	{
 		endFrame = 1;
 		TweenLite.to(buy_now, 3, {opacity:1, delay:0.5});		
