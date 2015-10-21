@@ -45,6 +45,7 @@ home_animation = (function() {
 	
 		TweenLite.to(product_text, 0, {scaleX:1.1, scaleY:1.1});
 		TweenLite.to(bg, 0, {scaleX:1.1, scaleY:1.1});
+		TweenLite.to(tacoLime, 0);
 
 		frame1();
 
@@ -55,6 +56,7 @@ home_animation = (function() {
 	function frame1()
 	{
 		TweenLite.to(first_text, .8, {opacity:0, top:-270, delay: 2});
+		TweenLite.to(tacoLime, .5, {opacity:1, delay:3.2});
 		TweenLite.to(product_text, 1, {top:0, scaleX:1, scaleY:1, delay:2});		
 		TweenLite.to(bg, 1, {top:-179, scaleX:1, scaleY:1, delay:2});		
 		// slide up white bg
