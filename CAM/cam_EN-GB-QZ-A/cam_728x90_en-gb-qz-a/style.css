@@ -3,8 +3,8 @@
 
 #container {
 	position: absolute;
-	width: 726px;
-	height: 88px;
+	width: 728px;
+	height: 90px;
 	border:solid;
 	border-color:#58585a;
 	border-width:1px;
@@ -66,6 +66,9 @@ left:0px;
 top:0px;	
 opacity: 0;
 z-index:1;
+}
+#second_text, #third_text{
+	left: -5px;
 }
 
 #buy_now_over {
