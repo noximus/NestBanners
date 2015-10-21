@@ -57,7 +57,7 @@ home_animation = (function() {
 		TweenLite.to(first_text, .8, {top:-300, delay: 2});
 		TweenLite.to(bgMask, 1, {opacity:0, top:-179, delay: 2});
 		TweenLite.to(product_text, 1, {top:-170, scaleX:1, scaleY:1, delay:2});		
-		TweenLite.to(bg, 1, {top:-179, scaleX:1, scaleY:1, delay:2});
+		TweenLite.to(bg, 1, {top:-174, scaleX:1, scaleY:1, delay:2});
 		TweenLite.to(bgMask2, .9, {top:0, opacity:1, delay:2});
 		TweenLite.delayedCall(2, frame2);
 	}
