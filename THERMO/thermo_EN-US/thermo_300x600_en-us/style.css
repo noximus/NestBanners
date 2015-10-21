@@ -3,8 +3,8 @@
 
 #container {
 	position: absolute;
-	width: 728px;
-	height: 90px;
+	width: 300px;
+	height: 600px;
 	border:solid;
 	border-color:#58585a;
 	border-width:1px;
@@ -20,8 +20,8 @@ body{
 	position: absolute;
 	top:0px;
 	background-image: url("background.jpg");
-	width:778px;
-	height:90px;
+	width:300px;
+	height:775px;
 	z-index: -4;
 }
 
@@ -37,46 +37,41 @@ body{
 	position: absolute;
 	background-color: #fff;
 	width:100%;
-	height: 90px;
-	top:0px;
-	opacity: 0;
-	left: 575px;
+	height: 175px;
+	top:600px;
 	z-index: -1;
 }
 
 /* Blur images  */
-#first_text {
+#first_text, #bgMask {
 position: absolute;
 left:0px;
 top:0px;
 opacity: 1;
-z-index:0;
+z-index:1;
+}
+#bgMask{
+	z-index: 0;
 }
 
 #product_text {
 position: absolute;
-left:0px;
-top:0px;
-z-index:1;
-}
-#bgMask{
-position: absolute;
-left:0px;
-top:0px;
-z-index: -1;
+left:-3px;
+top:-30px;
+z-index:-1;
 }
 
-#second_text, #third_text, #buy_now, #logo {
+#second_text, #third_text, #buy_now, #logo,#bgMask2 {
 position: absolute;
 left:0px;
 top:0px;	
 opacity: 0;
 z-index:1;
 }
-#second_text, #third_text{
-	left: 30px;
-}
 
+#bgMask2{
+	top: 159px;
+}
 #buy_now_over {
 opacity: 0;
 z-index:2;	

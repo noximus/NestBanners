@@ -3,8 +3,8 @@
 
 #container {
 	position: absolute;
-	width: 728px;
-	height: 90px;
+	width: 160px;
+	height: 600px;
 	border:solid;
 	border-color:#58585a;
 	border-width:1px;
@@ -19,9 +19,10 @@ body{
 #bg {
 	position: absolute;
 	top:0px;
+	/*left:-20px;*/
 	background-image: url("background.jpg");
-	width:778px;
-	height:90px;
+	width:160px;
+	height:775px;
 	z-index: -4;
 }
 
@@ -37,10 +38,8 @@ body{
 	position: absolute;
 	background-color: #fff;
 	width:100%;
-	height: 90px;
-	top:0px;
-	opacity: 0;
-	left: 575px;
+	height: 180px;
+	top:600px;
 	z-index: -1;
 }
 
@@ -50,31 +49,28 @@ position: absolute;
 left:0px;
 top:0px;
 opacity: 1;
-z-index:0;
+z-index:2;
 }
 
 #product_text {
 position: absolute;
-left:0px;
+left:-73px;
 top:0px;
-z-index:1;
-}
-#bgMask{
-position: absolute;
-left:0px;
-top:0px;
-z-index: -1;
+z-index:-1;
 }
 
-#second_text, #third_text, #buy_now, #logo {
+#second_text, #third_text, #buy_now, #logo, #bgMask2{
 position: absolute;
 left:0px;
 top:0px;	
 opacity: 0;
 z-index:1;
 }
-#second_text, #third_text{
-	left: 30px;
+#bgMask{
+	position: absolute;
+	left:0px;
+	top:0px;
+	z-index:1;
 }
 
 #buy_now_over {
