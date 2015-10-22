@@ -3,6 +3,9 @@
 
 #container {
 	position: absolute;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	width: 726px;
 	height: 88px;
 	border:solid;
