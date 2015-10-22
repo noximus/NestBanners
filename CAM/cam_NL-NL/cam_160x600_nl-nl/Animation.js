@@ -45,7 +45,7 @@ home_animation = (function() {
 	
 		TweenLite.to(product_text, 0, {scaleX:.95, scaleY:.95});
 		TweenLite.to(bg, 0, {scaleX:1.1, scaleY:1.1});
-		// TweenLite.to(tacoLime, 0, {top:-2, scaleX:1.1, scaleY:1.1});		
+		TweenLite.to(tacoLime, 0, {top:-2, scaleX:1.1, scaleY:1.1});		
 
 		frame1();
 
@@ -56,7 +56,7 @@ home_animation = (function() {
 		TweenLite.to(first_text, 1.4, {opacity:0, top:-300, delay: 3});
 		TweenLite.to(product_text, .6, {top:21, left:-72, scaleX:.70, scaleY:.70, delay:3});		
 		TweenLite.to(bg, .8, {top:-20, scaleX:1, scaleY:1, delay:3});		
-		// TweenLite.to(tacoLime, .95, {opacity:1, top:-40, scaleX:.8, scaleY:.8, delay:3, ease: Expo.easeOut});
+		TweenLite.to(tacoLime, .95, {opacity:1, top:-40, scaleX:.8, scaleY:.8, delay:3, ease: Expo.easeOut});
 		TweenLite.delayedCall(3, frame2);
 	}
 	
