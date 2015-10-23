@@ -71,4 +71,7 @@ z-index:1;
 opacity: 0;
 z-index:2;	
 }
+#second_text, #third_text{
+	top: -11px;
+}
 
