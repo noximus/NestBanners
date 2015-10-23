@@ -51,9 +51,9 @@ home_animation = (function() {
 		TweenLite.to(white_BG, .5, {opacity: 1, delay:2});
 		// slide left white bg
 		TweenLite.to(white_BG, 1, {left:235, delay:2.2});
-		TweenLite.to(first_text, 1.8, {left:-500, opacity:0,delay: 2.3});
+		TweenLite.to(first_text, 1.8, {left:-500, opacity:0,delay: 2.1});
 		TweenLite.to(product_text, 1.6, {left:-380, delay:2.1});		
-		TweenLite.to(bg, 1.6, {left:-250, delay:2.3});
+		TweenLite.to(bg, 1.5, {left:-250, delay:2.2});
 		TweenLite.delayedCall(4, frame2);
 	}
 	

@@ -69,6 +69,9 @@ top:0px;
 opacity: 0;
 z-index:1;
 }
+#second_text, #third_text{
+	top: -1px;
+}
 
 #buy_now_over {
 opacity: 0;
