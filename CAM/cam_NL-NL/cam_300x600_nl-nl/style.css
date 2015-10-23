@@ -49,7 +49,7 @@ body{
 #first_text {
 position: absolute;
 left:0px;
-top:0px;
+top:-15px;
 opacity: 1;
 z-index:0;
 }
@@ -73,4 +73,6 @@ z-index:1;
 opacity: 0;
 z-index:2;	
 }
-
+#second_text, #third_text{
+	top: -5px;
+}
