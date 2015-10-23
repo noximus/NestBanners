@@ -45,7 +45,7 @@ home_animation = (function() {
 	
 		TweenLite.to(product_text, 0, {scaleX:.9, scaleY:.9});
 		TweenLite.to(bg, 0, {scaleX:1.25, scaleY:1.25});
-
+		TweenLite.to(bgMask2, 0, {scaleX:1.25, scaleY:1.25});
 		frame1();
 
 	}
@@ -55,7 +55,7 @@ home_animation = (function() {
 	function frame1()
 	 {
 		TweenLite.to(first_text, 1.4, {opacity:0,top:-300, delay: 3});
-		TweenLite.to(bgMask, .8, {opacity:0, delay:3});
+		// TweenLite.to(bgMask, .8, {opacity:0, delay:3});
 		TweenLite.to(product_text, .6, {top:-33, left:-72, scaleX:.6, scaleY:.6, delay:3});
 		TweenLite.to(bg, .8, {top:-20, scaleX:1, scaleY:1, delay:3});
 
@@ -67,7 +67,7 @@ home_animation = (function() {
 		// slide up white bg
 		TweenLite.to(white_BG, .6, {top:420});
 		TweenLite.to(logo, 1, {opacity:1, delay:.9});
-		TweenLite.to(bgMask2, .9, {opacity:1, delay:0});		
+		TweenLite.to(bgMask2, .8, {opacity:1, scaleX:1, scaleY:1, delay:0});	
 		TweenLite.to(second_text, 3, {opacity:1, delay:1.4, ease: Expo.easeOut});		
 		TweenLite.to(third_text, 4, {opacity:1, delay:2.6, ease: Expo.easeOut});	
 		TweenLite.delayedCall(4.5, frame3);	
