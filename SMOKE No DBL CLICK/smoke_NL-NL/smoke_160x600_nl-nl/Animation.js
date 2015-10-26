@@ -1,33 +1,6 @@
 home_animation = (function() {
 	
-	var boundEvents = {};
-
-	function bind (elem, eventName, callback) {
-		if (elem.addEventListener) {
-			elem.addEventListener(eventName, callback, false);
-		}
-
-		else if (elem.attachEvent) {
-			var eID = elem.attachEvent('on'+ eventName, callback);
-			boundEvents[eID] = { name: eventName, callback: callback };
-		}
-	}
-
-	function unbind (elem, eventName, callback) {
-		if (elem.removeEventListener) {
-			elem.removeEventListener(eventName, callback, false);
-		}
-
-		else if (elem.detachEvent) {
-			for (var eID in boundEvents) {
-				if ((boundEvents[eID].name === eventName) &&
-						(boundEvents[eID].callback === callback)) {
-					elem.detachEvent(eID);
-					delete boundEvents[eID];
-				}
-			}
-		}
-	}
+	
 
 		var endFrame = 0;
 
@@ -36,12 +9,7 @@ home_animation = (function() {
 		document.getElementById("container").style.display = "block";
 
 
-		// CTA BTN CLICKTAG //
-			bind(document.getElementById('click_screen'), 'click', function(e) 
-			{
-				e.preventDefault();
-				Enabler.exit("clickTag1");
-			});
+		
 		frame1();
 
 	}
@@ -101,15 +69,6 @@ container.onmouseout = function() {
 
 // If true, start function. If false, listen for INIT.
 window.onload = function() {
-  if (Enabler.isInitialized()) {
-      enablerInitHandler();
-  } else {
-      Enabler.addEventListener(studio.events.StudioEvent.INIT,
-enablerInitHandler);
-  }
-}
-
-function enablerInitHandler() {
   home_animation();
 }
 
