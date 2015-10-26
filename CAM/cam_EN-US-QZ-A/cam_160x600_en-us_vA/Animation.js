@@ -36,12 +36,12 @@ home_animation = (function() {
 		document.getElementById("container").style.display = "block";
 
 
-		// CTA BTN CLICKTAG //
-			bind(document.getElementById('click_screen'), 'click', function(e) 
-			{
-				e.preventDefault();
-				Enabler.exit("clickTag1");
-			});
+		// // CTA BTN CLICKTAG //
+		// 	bind(document.getElementById('click_screen'), 'click', function(e) 
+		// 	{
+		// 		e.preventDefault();
+		// 		Enabler.exit("clickTag1");
+		// 	});
 	
 		TweenLite.to(product_text, 0, {scaleX:.95, scaleY:.95});
 		TweenLite.to(bg, 0, {scaleX:1.1, scaleY:1.1});
@@ -104,15 +104,16 @@ container.onmouseout = function() {
 
 // If true, start function. If false, listen for INIT.
 window.onload = function() {
-  if (Enabler.isInitialized()) {
-      enablerInitHandler();
-  } else {
-      Enabler.addEventListener(studio.events.StudioEvent.INIT,
-enablerInitHandler);
-  }
+//   if (Enabler.isInitialized()) {
+//       enablerInitHandler();
+//   } else {
+//       Enabler.addEventListener(studio.events.StudioEvent.INIT,
+// enablerInitHandler);
+//   }
+home_animation();
 }
 
-function enablerInitHandler() {
-  home_animation();
-}
+// function enablerInitHandler() {
+  
+// }
 
