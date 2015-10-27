@@ -40,7 +40,7 @@ body{
 	position: absolute;
 	background-color: #fff;
 	width:100%;
-	height: 50px;
+	height: 55px;
 	top:350px;
 	z-index: -1;
 	
@@ -50,7 +50,7 @@ body{
 #first_text {
 position: absolute;
 left:0px;
-top:5px;
+top:0px;
 opacity: 1;
 z-index:0;
 }
@@ -72,10 +72,9 @@ z-index:1;
 
 #buy_now_over {
 opacity: 0;
-z-index:2;	
-}
-#second_text, #third_text{
-	top: 0px;
-}
+z-index:2;
+/*position: absolute;
+top: -3px;
+*/}
 
 

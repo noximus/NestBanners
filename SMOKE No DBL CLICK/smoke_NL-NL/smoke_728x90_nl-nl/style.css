@@ -77,5 +77,6 @@ z-index:2;
 }
 #second_text, #third_text{
 	top: -2px;
+	left: 30px;
 }
 

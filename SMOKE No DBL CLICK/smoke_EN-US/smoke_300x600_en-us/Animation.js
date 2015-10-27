@@ -11,7 +11,7 @@ home_animation = (function() {
 
 		
 	
-		TweenLite.to(product_text, 0, {scaleX:1.4, scaleY:1.4});
+		TweenLite.to(product_text, 0, {scaleX:1.2, scaleY:1.2});
 		TweenLite.to(bg, 0, {scaleX:1.1, scaleY:1.1});
 
 		frame1();
@@ -21,7 +21,7 @@ home_animation = (function() {
 	{
 		TweenLite.to(first_text, .8, {top:-300, delay: 2});
 		TweenLite.to(product_text, 1, {top:-115, delay:2});	
-		TweenLite.to(product_text, .9, {scaleX:1.2, scaleY:1.2,delay:2});	
+		TweenLite.to(product_text, .9, {delay:2});	
 		TweenLite.to(bg, 1, {top:-145, scaleX:1, scaleY:1, delay:2});		
 		TweenLite.delayedCall(2, frame2);
 	}

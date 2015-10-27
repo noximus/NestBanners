@@ -11,7 +11,7 @@ home_animation = (function() {
 
 		
 		//TweenLite.to(threeX, 0, {scaleX:2.5, scaleY:2.5});
-		//TweenLite.to(tool, 0, {scaleX:2.5, scaleY:2.5});
+		TweenLite.to(product_text, 0, {scaleX:1.1, scaleY:1.1});
 		frame1();
 	}
 	function frame1()

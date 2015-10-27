@@ -50,7 +50,7 @@ body{
 #first_text {
 position: absolute;
 left:0px;
-top:5px;
+top:0px;
 opacity: 1;
 z-index:0;
 }
@@ -65,19 +65,16 @@ z-index:-1;
 #second_text, #third_text, #buy_now, #logo {
 position: absolute;
 left:0px;
-top:0px;	
+top:-3px;	
 opacity: 0;
 z-index:1;
 }
 
 #buy_now_over {
 opacity: 0;
-z-index:2;	
+z-index:2;
 position: absolute;
+top: -3px;	
 }
-#second_text, #third_text{
-	top:-2px;
-}
-#buy_now, #buy_now_over{
-	top:-1px;
-}
+
+

@@ -55,8 +55,8 @@ z-index:1;
 }
 #product_text {
 position: absolute;
-left:-3px;
-top:-15px;
+left:-4px;
+top:20px;
 z-index:-1;
 }
 
@@ -67,11 +67,10 @@ top:0px;
 opacity: 0;
 z-index:1;
 }
-#second_text, #third_text{
-	top:-4px;
-}
 #buy_now_over {
 opacity: 0;
 z-index:2;	
 }
-
+#second_text, #third_text{
+	top: -3px;
+}
