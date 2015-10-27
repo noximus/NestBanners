@@ -9,7 +9,7 @@ home_animation = (function() {
 		document.getElementById("container").style.display = "block";
 
 
-		
+		TweenLite.to(bg, 0, {scaleX:1.2, scaleY:1.2});
 		frame1();
 
 	}

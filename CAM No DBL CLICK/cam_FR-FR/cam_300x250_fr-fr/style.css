@@ -75,8 +75,11 @@ opacity: 0;
 z-index:2;
 position: absolute;	
 }
-#second_text, #third_text,#logo{
+#logo{
 	top: -4px;
+}
+#second_text, #third_text{
+	top: -5px;
 }
 #buy_now, #buy_now_over{
 	top:-3px;

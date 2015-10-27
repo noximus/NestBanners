@@ -76,3 +76,7 @@ opacity: 0;
 z-index:2;	
 }
 
+#second_text, #third_text{
+	top: -3px;
+	left: 20px;
+}
