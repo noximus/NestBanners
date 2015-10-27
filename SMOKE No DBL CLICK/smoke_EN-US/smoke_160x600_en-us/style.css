@@ -22,8 +22,9 @@ body{
 #bg {
 	position: absolute;
 	top:0px;
-	/*left:-20px;*/
-	background-image: url("background.jpg");
+	left:-20px;
+	overflow: visible;
+	/*background-image: url("background.jpg");*/
 	width:160px;
 	height:775px;
 	z-index: -4;
