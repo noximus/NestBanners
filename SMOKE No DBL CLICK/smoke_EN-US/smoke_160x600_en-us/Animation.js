@@ -19,7 +19,7 @@ home_animation = (function() {
 	function frame1()
 	{
 		TweenLite.to(first_text, 1.4, {opacity:0, top:-300, delay: 3});
-		TweenLite.to(product_text, .6, {top:-60, scaleX:.72, scaleY:.72, delay:3});
+		TweenLite.to(product_text, .6, {top:-17, scaleX:.72, scaleY:.72, delay:3});
 		TweenLite.to(bg, .7, {top:-110, scaleX:1, scaleY:1, delay:3});
 
 		TweenLite.delayedCall(3, frame2);

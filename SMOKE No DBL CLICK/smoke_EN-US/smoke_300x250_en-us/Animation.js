@@ -12,7 +12,7 @@ home_animation = (function() {
 		
 	
 		//TweenLite.to(threeX, 0, {scaleX:2.5, scaleY:2.5});
-		//TweenLite.to(tool, 0, {scaleX:2.5, scaleY:2.5});
+		// TweenLite.to(product_text, 0, {scaleX:1.1, scaleY:1.1});
 
 		frame1();
 
@@ -21,10 +21,10 @@ home_animation = (function() {
 	function frame1()
 	{
 		TweenLite.to(first_text, .9, {opacity:0, top:-200, delay: 3});
-		TweenLite.to(product_text, 1, {top:-5, delay:3});	
+		TweenLite.to(product_text, 1, {top:10, delay:3});	
 		TweenLite.to(bg, 1, {top:-150, delay:3});
 		TweenLite.to(white_BG, .6, {top:200, delay:4.9});
-		TweenLite.to(product_text, .3, {top:-20, delay:5.2});	
+		// TweenLite.to(product_text, .3, {top:-20, delay:5.2});	
 		TweenLite.to(second_text, 3, {opacity:1, delay:6, ease: Expo.easeOut});		
 		TweenLite.to(third_text, 3, {opacity:1, delay:7.5, ease: Expo.easeOut});	
 
