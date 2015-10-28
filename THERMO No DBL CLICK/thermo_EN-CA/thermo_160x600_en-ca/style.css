@@ -57,8 +57,8 @@ z-index:2;
 
 #product_text {
 position: absolute;
-left:-72px;
-top:0px;
+left:-73px;
+top:-10px;
 z-index:-1;
 }
 
