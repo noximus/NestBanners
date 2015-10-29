@@ -14,7 +14,7 @@ home_animation = (function() {
 	function frame1()
 	{	
 		TweenLite.to(first_text, 1.2, {opacity:0,top:-250, delay: 2});
-		TweenLite.to(product_text, 1, {top:-257, delay:2});	
+		TweenLite.to(product_text, 1, {top:-247, delay:2});	
 		TweenLite.to(bg, 1, {top:-231, delay:2});	
 		TweenLite.to(white_BG, 1, {top:200, delay:2});	
 		TweenLite.to(second_text, 3, {opacity:1, delay:3, ease: Expo.easeOut});		

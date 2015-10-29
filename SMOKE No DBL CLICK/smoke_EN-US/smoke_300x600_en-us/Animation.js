@@ -20,8 +20,7 @@ home_animation = (function() {
 	function frame1()
 	{
 		TweenLite.to(first_text, .8, {top:-300, delay: 2});
-		TweenLite.to(product_text, 1, {top:-115, delay:2});	
-		TweenLite.to(product_text, .9, {delay:2});	
+		TweenLite.to(product_text, 1, {top:-110, delay:2});	
 		TweenLite.to(bg, 1, {top:-145, scaleX:1, scaleY:1, delay:2});		
 		TweenLite.delayedCall(2, frame2);
 	}
